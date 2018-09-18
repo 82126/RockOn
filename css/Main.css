@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.b1Landen
+{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background:url()no-repeat 50% 50%;
+	top: 0;
+	display: table;
+	background-size: cover;
+}
+
+.b1
+{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: url(../Images/Rockband.jpg);
+	top: 0;
+	display: table;
+	background-size: cover;
+}
+
+.b2
+{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background:url()no-repeat 50% 50%;
+	top: 0;
+	display: table;
+	background-size: cover;
+}
+
+.b1 .in1, .b2 .in1
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content
+{
+	min-width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+.content h1
+{
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 500%;
+	color: #FFFFFF;
+	text-shadow: 0 0 300px #000;
+}
+
+
+.content .StartLezen, .Storysend
+{
+	font-family: 'Lobster', cursive;
+	border-radius: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	border: 3px solid;
+	padding: 8px 13px;
+	font-weight: bold;
+	-webkit-transition: color 2s; /* Safari */
+    transition: color 2s; 
+}
+
+.content .StartLezen:hover
+{
+	color: #C846EE; 
+}
+
+
+
+.Wrapperappear, #Wrapercontent
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#KalenderInfo
+{
+	position: relative;
+	margin-left: 1150px;
+	margin-bottom: -150px;
+}
+ 
+

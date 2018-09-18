@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.b1Landen
+{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background:url(images/InfoBackground.jpg)no-repeat 50% 50%;
+	top: 0;
+	display: table;
+	background-size: cover;
+}
+
+.b1
+{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background:url(images/herfst_achtergrond.jpg)50% 50%;
+	top: 0;
+	display: table;
+	background-size: cover;
+}
+
+.b2
+{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background:url(BackgoundStories.jpg)no-repeat 50% 50%;
+	top: 0;
+	display: table;
+	background-size: cover;
+}
+
+.b1 .in1, .b2 .in1
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content
+{
+	min-width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+.content h1 , .Stories h1
+{
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 500%;
+	color: #FFFFFF;
+	text-shadow: 0 0 300px #000;
+}
+
+
+.content .StartLezen, .Storysend
+{
+	font-family: 'Lobster', cursive;
+	border-radius: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	border: 3px solid;
+	padding: 8px 13px;
+	font-weight: bold;
+	-webkit-transition: color 2s; /* Safari */
+    transition: color 2s; 
+}
+
+.content .StartLezen:hover
+{
+	color:#164BE5;	 
+}
+
+.Storysend:hover
+{
+	color: #000000;
+}
+
+.Wrapperappear, #Wrapercontent
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.VerhaalHigh img, .VerhaalHigh2 img
+{
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+}
+
+.VerhaalHigh, .VerhaalHigh2
+{
+	width: 300px;
+	display:inline-block;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  	margin: 0 10px;
+  	font-size: medium;
+  	text-align: center;
+	padding:0 10px;
+	margin-right:5px;
+	vertical-align: top;
+	margin-top: 5px;
+	border-radius: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.VerhaalHigh2
+{
+	display: none;
+}
+
+.Next
+{
+	display: inline-block;
+}
+
+.Appear
+{
+	text-align: center;
+	height: 40px;
+	width: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	display: block;
+	border-radius: 4px;
+	font-family: Lobster;
+}
+
+.Seemore
+{
+	display: none;
+}
+
+.Wantmore, .Seemore
+{
+	background-color: #000000;
+	color: white;
+}
+
+.Uitloggen a, .Loggedin a
+{
+	color: white;
+	text-decoration:none;
+	text-align:center;
+}
+.Loggedin
+{
+	text-align:center;	
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:400px;
+	padding: 20px 32px;
+	font-size: 16px;
+	background:#2D3ECA;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	width: 10em;
+}
+
+.Wrong
+{
+	text-align:center;	
+	margin-right:auto;
+	margin-left:auto;
+	padding: 10px 16px;
+	background:#F00;
+	margin-top:900px;
+	font-size:20px;	
+}
+.form
+{
+	background-color:#09C;
+	border-radius:12px;
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	box-shadow: 0 0 3px #ccc;
+}
+
+.Uitloggen
+{
+	margin-right:auto;
+	margin-left:auto;
+	padding: 10px 16px;
+	font-size: 12px;
+	background:#2D3ECA;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	width: 10em;
+}
+.headerLogin
+{
+ font-size:10px;
+}
+
+.Landen
+{
+	width: 200px;
+	display:inline-block;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  	margin: 0 10px;
+  	font-size: medium;
+  	text-align: center;
+	padding:0 10px;
+	margin-right:5px;
+	vertical-align: top;
+	margin-top: 5px;
+	border-radius: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background-color: #FFFFFF;
+	min-height: 300px;
+}
+
+.Landen:hover
+{
+	cursor:pointer;	
+}
+
+.Landen p
+{
+	font-size: 50px;
+	font-family: Lobster;
+	margin-top: 120px;
+	color: aliceblue;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+/*.Landen p:hover
+{
+	font-size: 55px;
+	transition: all 0.5s ease-out;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+}
+*/
+
+.VerhaalLandAustralia, .VerhaalLandUkraine, .VerhaalLandVietnam, .VerhaalLandSyria
+{
+	width: 300px;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  	margin: 0 10px;
+  	font-size: medium;
+  	text-align: center;
+	padding:0 10px;
+	margin-right:5px;
+	vertical-align: top;
+	margin-top: 5px;
+	border-radius: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background-color: white;
+	display:none;
+}
+.VerhaalLandAustralia img, .VerhaalLandSyria img, .VerhaalLandUkraine img, .VerhaalLandVietnam img
+{
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+}
+
+
+ /* Foto's landen */
+#Syria
+{
+	background-image: url(images/CursusAchtergrond.jpg);
+}
+#Vietnam
+{
+	background-image: url(images/CameraAchtergrond.jpg);	
+}
+#Ukraine
+{
+	background-image: url(images/Blauw.jpg);	
+}
+#Australia
+{
+	background-image: url(images/Australia.jpg);	
+}
+
+#fuller
+{
+	height: 620px;
+}
+/* CSS Document */
+
